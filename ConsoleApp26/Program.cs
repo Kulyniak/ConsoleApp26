@@ -14,10 +14,15 @@ namespace ConsoleApp26
                 Console.WriteLine(item);
             }
             string Foo = List.ToString();
-            Console.WriteLine( Foo);
+            Console.WriteLine(Foo);
             var Boys  = new List<string>();
             Boys.Add("vasyl, oleg, victor, dmitro");
             Boys.ForEach(Console.WriteLine);
+            string[] Array = new string[] { "nitro", "vitto" };
+            foreach (var item in Array)
+            {
+                Console.WriteLine(item);
+            }
         }
 
        
