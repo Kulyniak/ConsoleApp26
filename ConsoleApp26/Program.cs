@@ -23,8 +23,9 @@ namespace ConsoleApp26
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("hello, guys");
         }
 
-       
+    
     }
 }
